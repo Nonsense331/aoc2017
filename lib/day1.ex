@@ -1,21 +1,4 @@
-defmodule BA do
-  @moduledoc """
-  Documentation for BA.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> BA.hello
-      :world
-
-  """
-  def hello do
-    :world
-  end
-
+defmodule Day1 do
   def first_captcha(input) do
     string = to_string input
     list = String.codepoints(string)
